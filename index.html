@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Connect Four</title>
+
+    <script src="JS/PlayerClass.js"></script>
+
+      <link rel="stylesheet" href="CSS/index.css">
+      <script src="JS/index.js"></script>
+  
+</head>
+
+<body>
+    <div class="container">
+    <div class="wrapper">
+      <ul class="steps">
+        <li class="is-active">Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+       
+      </ul>
+      <form class="form-wrapper">
+
+          <fieldset class="section  is-active ">
+              <h1 id="hd1">WELLCOME CONNECT FOUR </h1>
+              <h3>Game Mode</h3>
+              <div class="row cf">
+                  <div class="four col">
+                      <input type="radio" name="r1" id="r1" checked>
+                      <label for="r1">
+                          <h4>One VS One</h4>
+                      </label>
+                  </div>
+                  <div class="four col">
+                      <input type="radio" name="r1" id="r2"><label for="r2">
+                          <h4>One VS Computer</h4>
+                      </label>
+                  </div>
+              </div>
+              <div class="button">Next</div>
+          </fieldset>
+
+        <fieldset class="section">
+          <h3 class="headerText">Player One Name </h3>
+          <input type="text" name="name" id="name" placeholder="Player One">
+            <span id="n1">Name required</span>
+            <h3 class="headerText">Player Two Name </h3>
+            <input type="text" name="name2" id="name2" placeholder="Player Two">
+            <span id="n2">Name required</span>
+          <div class="button">Next</div>
+        </fieldset>
+
+         <fieldset class="section">
+              <h3 class="headerText">Player Name </h3>
+              <input type="text" name="name3" id="name3" placeholder="Player Name">
+             <span id="n3">Name required</span>
+              <div class="button">Next</div>
+          </fieldset>
+
+        <fieldset class="section">
+          <h3>Game Complex</h3>
+          <div class="row cf">
+            <div class="four col">
+              <input type="radio" name="r2" id="r3" checked>
+              <label for="r3">
+                <h4>Easy</h4>
+              </label>
+            </div>
+            <div class="four col">
+              <input type="radio" name="r2" id="r4"><label for="r4">
+                <h4>Hard</h4>
+              </label>
+            </div>
+             
+          </div>
+
+          <div class="button">Next</div>
+
+        </fieldset>
+          <fieldset class="section">
+              <h3>Game Level</h3>
+              <div class="row cf">
+                  <div class="four col">
+                      <input type="radio" name="r3" id="r5" checked>
+                      <label for="r5">
+                          <h4>Level One</h4>
+                      </label>
+                  </div>
+                  <div class="four col">
+                      <input type="radio" name="r3" id="r6"><label for="r6">
+                          <h4>Level Two</h4>
+                      </label>
+                  </div>
+                 
+              </div>
+              <input class="submit button" type="button" name="start" value="Start Game">
+          </fieldset>
+
+        <fieldset class="section">
+            <h1 id="hd2"></h1>
+            <h1 id="hd2"></h1>
+            <h1 id="hd2"></h1>
+            <h1 id="hd3"></h1>
+            <h1 id="hd3"></h1>
+            <h1 id="hd3"></h1>
+            <h1 id="hd3"></h1>
+                <div class="button">Next</div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+   
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Four</title>
+	<meta charset="utf-8" />
+    <link href="CSS/Connect4Style.css" rel="stylesheet" />
+    <script src="JS/PlayerClass.js"></script>
+    <script src="JS/ComputerPlayer.js"></script>
+    <script src="JS/Calc_Result.js"></script>
+    <script src="JS/GamePage.js"></script>
+</head>
+<body>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+               <!-- <span class="close">&times;</span>-->
+                <h2>Congratulation...</h2>
+            </div>
+            <div class="modal-body">
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <button name="playAgain" value="Play Again">Play Again</button>
+                <button name="exit" value="Exit">Exit</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- The Parent div-->
+    <div class="wrapper">
+        <!-- The div of left player-->
+        <div class="player">
+            <p style="margin:auto; margin-top:60px;padding-left:10px;">Player One</p>
+            <p style="margin:auto; margin-top:90px;padding-left:10px;" id="pl1">Name</p>
+            <p style="margin:auto; margin-top:120px;padding-left:10px;">Score</p>
+            <p style="margin:auto; margin-top:100px;padding-left:10px;" id="s1">0</p>
+        </div>
+        <!-- The div of table-->
+        <div class="container">
+            <table class="=table_Connect">
+
+                <tr class="BallTR">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <div id="btn_back">Back</div>
+
+        </div>
+        <!-- The div of right player-->
+        <div class="player p2">
+            <p style="margin:auto; margin-top:60px;padding-left:10px;">Player Two</p>
+            <p style="margin:auto; margin-top:90px;padding-left:10px;" id="pl2">Name</p>
+            <p style="margin:auto; margin-top:120px;padding-left:10px;">Score</p>
+            <p style="margin:auto; margin-top:100px;padding-left:10px;" id="s2">0</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,256 @@
+﻿/*The Wrapper --Contain all page*/
+.wrapper 
+{
+    height: 700px;
+    text-align: center;
+}
+/*The Left And Right Div(player)*/
+.player {
+    height: 680px;
+    width: 25%;
+    display: inline-block;
+    font-family: Mistral,Forte,Cambria, Cochin;
+    font-size: 33px;
+    text-shadow: 4px 4px 7px darkmagenta;
+    color: deepskyblue;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Player on right*/
+.p2 
+{
+    float: right;
+}
+/*paragragh*/
+p 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+/*The div Contains The table*/
+.container
+ {
+    display: inline-block;
+    text-align: center;
+    background-color: none;
+    background-image: url('../images/ww.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Pink Ball Div*/
+.cellA 
+{
+    height: 80px;
+    width: 80px;
+    background-color: deeppink;
+    border-radius: 50%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    margin: auto;
+}
+/*Blue Ball Div*/
+.cellB {
+    height: 80px;
+    width: 80px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    margin: auto;
+}
+/*Table of Game*/
+table
+ {
+    text-align: center;
+    float: right;
+}
+
+/*Td of the table*/
+td 
+{
+    width: 82px;
+    height: 82px;
+}
+/*body of the page*/
+body
+ {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+/*This Code Not Used*/
+/*.divWin {
+    height: 75px;
+    width: 75px;
+    background-color: deeppink;
+    border-radius: 50%;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    margin: auto;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}*/
+
+
+/* The Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.7s;
+    text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button of My own Div(Not Used) */
+.close 
+{
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+/*Modal Header*/
+.modal-header
+ {
+    padding: 2px 16px;
+    background-color: #3498db;
+    color: white;
+}
+/*Modal Body*/
+.modal-body
+ {
+    padding: 2px 16px;
+    font-family:Forte,Cambria, Cochin;
+    font-size: 44px;
+    text-shadow: 2px 4px 7px darkmagenta;
+    color: darkblue;
+}
+/*Modal Footer*/
+.modal-footer
+ {
+    padding: 6px 16px;
+    background-color: #3498db;
+    color: white;
+}
+/*Buttons of the div*/
+button 
+{
+    width: 30%;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color:cyan;
+    color:navy;
+    padding: 8px 30px;
+    border:none;
+}
+button:hover{
+    cursor:pointer;
+}
+/*Back Button*/
+#btn_back
+ {
+    background-color: #3498db;
+    padding: 8px 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    position: absolute;
+    left: 630px;
+    bottom: 2px;
+}
